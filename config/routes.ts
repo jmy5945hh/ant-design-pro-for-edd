@@ -73,13 +73,7 @@ export default [
     routes: [
       {
         path: '/dashboard',
-        redirect: '/dashboard/analysis',
-      },
-      {
-        name: 'analysis',
-        icon: 'barChart',
-        path: '/dashboard/analysis',
-        component: './dashboard/analysis',
+        redirect: '/dashboard/workplace',
       },
       {
         name: 'monitor',
@@ -288,7 +282,7 @@ export default [
   },
   {
     path: '/',
-    redirect: '/dashboard/analysis',
+    redirect: '/dashboard/workplace',
   },
   {
     component: './exception/404',
