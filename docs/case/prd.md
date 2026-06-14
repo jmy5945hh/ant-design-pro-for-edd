@@ -163,6 +163,15 @@ type ParsedMessage =
 
 使用 `useRef` 持有自增计数器（`idCounter`），通过 `generateId()` 生成会话 key（格式：`conv-N`），确保同一组件生命周期内唯一性，不依赖外部 UUID 库。
 
-### 4.7 无 Mock 数据
+## 5. 交付标准
 
-Chatbot 页面直接对接真实流式 AI 接口（`glm-4.5-flash`），无本地 Mock 文件；环境变量 `CHAT_API_URL` 支持切换接入不同的大模型服务端点。
+- [ ] `/chatbot` 路由可访问，左侧菜单出现对应入口
+- [ ] 中英文菜单翻译正确
+- [ ] 能创建会话、发送消息、接收 AI 流式回复
+- [ ] 切换/删除会话功能正常
+- [ ] AI 回复中的 Markdown 正确渲染
+- [ ] Think 标签被正确解析与展示
+- [ ] 空状态引导打字机动效正常
+- [ ] 请求可被取消，取消后 UI 恢复正常
+- [ ] `npm run lint` + `npm run tsc` 无新增错误
+- [ ] 提交历史清晰，commit message 符合规范（如 Conventional Commits）
