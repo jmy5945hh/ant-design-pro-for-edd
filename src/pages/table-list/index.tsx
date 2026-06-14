@@ -37,7 +37,6 @@ const TableList: React.FC = () => {
     mutationFn: removeRule,
     onSuccess: () => {
       setSelectedRows([]);
-      actionRef.current?.reloadAndRest?.();
       queryClient.invalidateQueries({ queryKey: ['rule'] });
 
       messageApi.success('Deleted successfully and will refresh soon');

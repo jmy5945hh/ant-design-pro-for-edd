@@ -251,7 +251,7 @@ const Articles: FC = () => {
             <List.Item
               key={item.id}
               actions={[
-                <IconText key="star" type="star-o" text={item.star} />,
+                <IconText key="star" type="star-o" text={item.message} />,
                 <IconText key="like" type="like-o" text={item.like} />,
                 <IconText key="message" type="message" text={item.message} />,
               ]}

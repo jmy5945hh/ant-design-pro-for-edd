@@ -57,10 +57,10 @@ const Settings: React.FC = () => {
       if (window.innerWidth < 768 && offsetWidth > 400) {
         mode = 'horizontal';
       }
-      setInitConfig((prev) => ({
-        ...prev,
+      setInitConfig({
+        ...initConfig,
         mode: mode as SettingsState['mode'],
-      }));
+      });
     });
   };
 

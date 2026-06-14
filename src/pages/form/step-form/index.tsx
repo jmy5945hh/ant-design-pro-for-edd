@@ -214,7 +214,7 @@ const StepForm: React.FC<Record<string, any>> = () => {
           <StepsForm.StepForm title="完成">
             <StepResult
               onFinish={async () => {
-                setCurrent(0);
+                setCurrent(1);
                 form.resetFields();
               }}
             >

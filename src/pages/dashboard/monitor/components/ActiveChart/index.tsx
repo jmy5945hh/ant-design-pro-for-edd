@@ -25,7 +25,7 @@ const ActiveChart = () => {
   useEffect(() => {
     const loopData = () => {
       setActiveData(getActiveData());
-      timerRef.current = window.setTimeout(loopData, 2000);
+      timerRef.current = window.setTimeout(loopData, 100);
     };
     loopData();
     return () => {
