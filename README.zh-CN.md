@@ -35,7 +35,6 @@ Language : [🇺🇸](./README.md) | 🇨🇳
 - :globe_with_meridians: **国际化**：内建业界通用的国际化方案
 - :gear: **最佳实践**：良好的工程实践助您持续产出高质量代码
 - :1234: **Mock 数据**：实用的本地数据调试方案
-- :robot: **AI 助手**：内置 AI 聊天助手页面，基于 [Ant Design X](https://x.ant.design/)
 - :white_check_mark: **UI 测试**：自动化测试保障前端产品质量
 
 ## 模板
@@ -68,7 +67,6 @@ Language : [🇺🇸](./README.md) | 🇨🇳
 - 用户
   - 用户中心页
   - 用户设置页
-- AI 助手
 - 账户
   - 登录
   - 注册
