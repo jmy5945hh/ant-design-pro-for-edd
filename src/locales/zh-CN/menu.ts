@@ -31,7 +31,6 @@ export default {
   'menu.list.search-list.applications': '搜索列表（应用）',
   'menu.profile': '详情页',
   'menu.profile.basic': '基础详情页',
-  'menu.profile.advanced': '高级详情页',
   'menu.result': '结果页',
   'menu.result.success': '成功页',
   'menu.result.fail': '失败页',

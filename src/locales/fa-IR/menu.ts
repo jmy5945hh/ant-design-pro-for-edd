@@ -31,7 +31,6 @@ export default {
   'menu.list.search-list.applications': 'لیست جستجو (برنامه ها)',
   'menu.profile': 'مشخصات',
   'menu.profile.basic': 'مشخصات عمومی',
-  'menu.profile.advanced': 'مشخصات پیشرفته',
   'menu.result': 'نتیجه',
   'menu.result.success': 'موفق',
   'menu.result.fail': 'ناموفق',

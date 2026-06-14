@@ -31,7 +31,6 @@ export default {
   'menu.list.search-list.applications': 'অনুসন্ধানের তালিকা (অ্যাপ্লিকেশন)',
   'menu.profile': 'প্রোফাইল',
   'menu.profile.basic': 'বেসিক প্রোফাইল',
-  'menu.profile.advanced': 'উন্নত প্রোফাইল',
   'menu.result': 'ফলাফল',
   'menu.result.success': 'সাফল্য',
   'menu.result.fail': 'ব্যর্থ',

@@ -197,12 +197,6 @@ export default [
         path: '/profile/basic',
         component: './profile/basic',
       },
-      {
-        name: 'advanced',
-        icon: 'crown',
-        path: '/profile/advanced',
-        component: './profile/advanced',
-      },
     ],
   },
   {

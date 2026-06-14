@@ -33,7 +33,6 @@ export default {
   'menu.list.search-list.applications': 'Lista de Busca(aplicações)',
   'menu.profile': 'Perfil',
   'menu.profile.basic': 'Perfil Básico',
-  'menu.profile.advanced': 'Perfil Avançado',
   'menu.result': 'Resultado',
   'menu.result.success': 'Sucesso',
   'menu.result.fail': 'Falha',

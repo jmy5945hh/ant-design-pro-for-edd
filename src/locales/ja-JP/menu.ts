@@ -31,7 +31,6 @@ export default {
   'menu.list.search-list.applications': '検索リスト(アプリ)',
   'menu.profile': 'プロフィール',
   'menu.profile.basic': '基本プロフィール',
-  'menu.profile.advanced': '高度なプロフィール',
   'menu.result': '結果',
   'menu.result.success': '成功',
   'menu.result.fail': '失敗',
